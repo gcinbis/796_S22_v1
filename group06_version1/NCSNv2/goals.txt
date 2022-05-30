@@ -1,0 +1,17 @@
+Paper: Improved Techniques for Training Score-Based Generative Models - NeurIPS 2020 
+
+Link: https://arxiv.org/pdf/2006.09011.pdf
+
+Experimental Result Goals
+
+* Qualitative Results: Figure 25 
+
+* Quantitative Results: Table 1 - NCSNv2 with denoising on unconditional CIFAR10 - FID score of 10.87 
+
+---- version 1 submission ----
+
+* We have not made any changes in our goals.
+
+* We have been able to generate images similar to the ones in Figure 25. However, we are close to the FID reported in the paper but there is still some gap. 
+
+* In our future work, we will focus on possible architectural differences. As we have mentioned in the main.ipynb, there are some changes and assumptions we made. We will revisit the relevant parts and try to reproduce the results that we aimed.
